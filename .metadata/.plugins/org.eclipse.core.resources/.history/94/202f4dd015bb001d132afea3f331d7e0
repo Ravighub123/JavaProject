@@ -1,0 +1,22 @@
+package Collections;
+
+import java.util.ArrayList;
+
+public class ArrayListExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String[] names= {"Priya", "Ravi"};
+		System.out.println("Thes econd name is "+names[1]);
+		
+		ArrayList<String> list1= new ArrayList<String>();
+		list1.add("Galaxy");
+		list1.add("Samsung");
+		
+		System.out.println("the list is " +list1);
+		System.out.println("the size of the list is "+list1.size());
+		System.out.println("the second element of the list is "+list1.get(1));
+		}
+
+}

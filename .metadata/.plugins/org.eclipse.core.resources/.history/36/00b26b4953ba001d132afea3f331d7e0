@@ -1,0 +1,7 @@
+package Oops;
+
+public class Insurance extends Citizen{
+	
+	public int InsuranceId;
+
+}

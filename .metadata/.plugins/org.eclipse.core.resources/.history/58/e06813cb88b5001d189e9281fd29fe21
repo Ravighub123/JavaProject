@@ -1,0 +1,12 @@
+package test;
+
+public class ArraysExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int arr1[]= {10,20,30,40,50};
+		System.out.println("the length of the array is "+arr1.length);
+
+	}
+
+}

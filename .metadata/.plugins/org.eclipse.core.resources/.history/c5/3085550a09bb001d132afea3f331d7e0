@@ -1,0 +1,8 @@
+package Oops;
+
+public class BankExample {
+	
+	public int AccountNo;
+	public void getBalance();
+
+}

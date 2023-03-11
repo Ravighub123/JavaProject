@@ -1,0 +1,12 @@
+package Collections;
+
+public class ArrayListExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String[] names= {"Priya", "Ravi"};
+		System.out.println("Thes econd name is "+names[1]);
+	}
+
+}

@@ -1,0 +1,18 @@
+package Oops;
+
+public class ChromeBrowser extends BrowserInterface {
+
+	@Override
+	public void OpenBrowser() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void CoseBrowser() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

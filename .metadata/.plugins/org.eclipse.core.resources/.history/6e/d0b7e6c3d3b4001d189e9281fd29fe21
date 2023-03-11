@@ -1,0 +1,14 @@
+package test;
+
+public class StringExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String name ="Shivam";
+	    String name1= "john";
+		System.out.println("num of chars in the tring is "+ name.length());
+
+	}
+
+}

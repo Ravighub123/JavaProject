@@ -1,0 +1,8 @@
+package Oops;
+
+public class Person {
+	
+	public String Name;
+	public int age;
+
+}

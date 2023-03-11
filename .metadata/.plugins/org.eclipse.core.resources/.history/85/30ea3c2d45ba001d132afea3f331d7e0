@@ -1,0 +1,15 @@
+package Oops;
+
+public class Employee {
+
+	public String Name;
+	public int EmpId;
+	
+	
+	public void DisplayName()
+	{
+		
+		System.out.println("Name Of the Employee is "+ 	Name);
+	}
+	
+}
