@@ -1,8 +1,0 @@
-package test;
-
-public class ConditonExample {
-	public static void main(String[] args) {
-	int age =15;
-	System.out.println("you are not eligible for voting");
-	}
-}

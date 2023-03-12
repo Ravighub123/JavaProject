@@ -1,7 +1,0 @@
-package test;
-
-public class ConditonExample {
-	public static void main(String[] args) {
-	
-	}
-}

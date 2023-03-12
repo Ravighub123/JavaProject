@@ -28,12 +28,20 @@ public class MapExample {
 			System.out.println("Item name is"+item);
 			System.out.println("Item Quantity is "+basket.get(item));
 	}*/
-			
-			for (Integer val: basket.values())
-			{
-				System.out.println("The value is "+ val);
+String str = "Clean World Green World Happy World";
+		
+		String[] arr1 = str.split(" ");
+		HashMap<String,Integer> map1 = new HashMap<String,Integer>();
+		
+		for(String word:arr1) {	
+			if(!map1.keySet().contains(word)) {
+				map1.put(word, 1);
+			}else {	
+				map1.put(word, map1.get(word)+1);
 			}
-			
+		}
+		
+		System.out.println("The resulting map  is " + map1);
 		
 	}
 	
